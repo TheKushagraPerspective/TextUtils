@@ -3,6 +3,7 @@ import React from 'react'
 function Alert(props) {
 
     // to capitalize the first character of the type of letter
+    // comment here
     const capitalizeFirstCharacter = (word) => {
         var str = word.toLowerCase();
         return str.charAt(0).toUpperCase() + str.slice(1);    // slice means add the string from 1 index
