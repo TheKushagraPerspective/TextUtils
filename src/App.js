@@ -62,7 +62,7 @@ function App() {
             <Route path="/" element={
               <TextFile heading="Enter your text below" mode={mode} showAlert={setTheAlertMessage} />
             } />
-            <Route path="/about" element={<About />} />
+            <Route path="/about" element={<About mode={mode} />}  />
           </Routes>
         </div>
       </Router>
