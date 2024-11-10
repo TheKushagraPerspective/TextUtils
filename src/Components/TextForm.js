@@ -141,14 +141,14 @@ export default function TextForm(props) {
 
             <div>
                 <button className="btn btn-primary" onClick={handleOnUpperCase}>Change to UpperCase</button>
-                <button className="btn btn-primary ms-2" onClick={handleOnLowerCase}>Change to LowerCase</button>
-                <button className="btn btn-primary ms-2" onClick={handleOnClearText}>Clear Text</button>
-                <button className="btn btn-primary ms-2" onClick={handleOnSpeak}>Speak</button>
-                <button className="btn btn-primary ms-2" onClick={handleOnSpeakPause}>Speak Pause</button>
-                <button className="btn btn-primary ms-2" onClick={handleOnSpeakResume}>Speak Resume</button>
-                <button className="btn btn-primary ms-2" onClick={handleOnStopSpeak}>Stop Speak</button>
-                <button className="btn btn-primary ms-2" onClick={handleOnReverseTheText}>Reverse the Text</button>
-                <button className="btn btn-primary ms-2" onClick={handleOnCopy}>Copy Text</button>
+                <button className="btn btn-primary mx-2 my-2" onClick={handleOnLowerCase}>Change to LowerCase</button>
+                <button className="btn btn-primary mx-2 my-2" onClick={handleOnClearText}>Clear Text</button>
+                <button className="btn btn-primary mx-2 my-2" onClick={handleOnSpeak}>Speak</button>
+                <button className="btn btn-primary mx-2 my-2" onClick={handleOnSpeakPause}>Speak Pause</button>
+                <button className="btn btn-primary mx-2 my-2" onClick={handleOnSpeakResume}>Speak Resume</button>
+                <button className="btn btn-primary mx-2 my-2" onClick={handleOnStopSpeak}>Stop Speak</button>
+                <button className="btn btn-primary mx-2 my-2" onClick={handleOnReverseTheText}>Reverse the Text</button>
+                <button className="btn btn-primary mx-2 my-2" onClick={handleOnCopy}>Copy Text</button>
                 <button className="btn btn-primary mt-3" onClick={handleOnRemoveExtraSpaces}>Remove Extra Spaces</button>
             </div>
 
